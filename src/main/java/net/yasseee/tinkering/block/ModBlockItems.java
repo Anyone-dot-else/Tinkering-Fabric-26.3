@@ -8,6 +8,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.yasseee.tinkering.block.custom.BombBlock;
+import net.yasseee.tinkering.block.custom.HealingPad;
+import net.yasseee.tinkering.block.custom.MagicBlock;
 
 import java.util.function.Function;
 
@@ -31,6 +34,24 @@ public class ModBlockItems {
             Block::new,
             BlockBehaviour.Properties.of()
                     .sound(SoundType.GRASS)
+    );
+    public static final Block BOMB_BLOCK = register(
+            ModBlockIds.BOMB_BLOCK,
+            BombBlock::new,
+            BlockBehaviour.Properties.of()
+                    .sound(SoundType.GRASS)
+    );
+    public static final Block HEALING_PAD = register(
+            ModBlockIds.HEALING_PAD,
+            HealingPad::new,
+            BlockBehaviour.Properties.of()
+                    .sound(SoundType.GRASS)
+    );
+    public static final Block MAGIC_BLOCK = register(
+            ModBlockIds.MAGIC_BLOCK,
+            MagicBlock::new,
+            BlockBehaviour.Properties.of()
+                    .sound(SoundType.AMETHYST)
     );
 
     public static void onInitialize() {

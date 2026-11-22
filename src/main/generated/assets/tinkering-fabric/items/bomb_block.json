@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "tinkering-fabric:block/bomb_block"
+  }
+}

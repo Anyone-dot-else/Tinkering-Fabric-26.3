@@ -4,5 +4,9 @@
   "item.tinkering-fabric.midas_glove": "Glove of Midas",
 
   "block.tinkering-fabric.condensed_dirt": "Condensed Dirt",
+  "block.tinkering-fabric.bomb_block": "Bomb",
+  "block.tinkering-fabric.healing_pad": "Healing Pad",
+  "block.tinkering-fabric.magic_block": "Magic Block",
+
   "creativeTab.tinkering-fabric": "Tinkering Fabric"
 }

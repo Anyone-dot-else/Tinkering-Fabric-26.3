@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minecraft.client.data.models.model.TexturedModel;
 import org.jspecify.annotations.NonNull;
 
 import static net.yasseee.tinkering.item.ModItems.*;
@@ -18,6 +19,9 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
         blockModelGenerators.createTrivialCube(CONDENSED_DIRT);
+        blockModelGenerators.createTrivialBlock(BOMB_BLOCK, TexturedModel.COLUMN_ALT);
+        blockModelGenerators.createTrivialCube(HEALING_PAD);
+        blockModelGenerators.createTrivialCube(MAGIC_BLOCK);
     }
 
     @Override

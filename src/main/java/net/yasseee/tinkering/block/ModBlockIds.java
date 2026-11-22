@@ -12,4 +12,7 @@ public class ModBlockIds {
     }
 
     public static final BlockItemId CONDENSED_DIRT =  create("condensed_dirt");
+    public static final BlockItemId HEALING_PAD = create("healing_pad");
+    public static final BlockItemId MAGIC_BLOCK = create("magic_block");
+    public static final BlockItemId BOMB_BLOCK = create("bomb_block");
 }

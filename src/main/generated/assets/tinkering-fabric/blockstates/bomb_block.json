@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tinkering-fabric:block/bomb_block"
+    }
+  }
+}

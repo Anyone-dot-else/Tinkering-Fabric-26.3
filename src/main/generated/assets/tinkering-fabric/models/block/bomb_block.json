@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tinkering-fabric:block/bomb_block_top",
+    "side": "tinkering-fabric:block/bomb_block"
+  }
+}

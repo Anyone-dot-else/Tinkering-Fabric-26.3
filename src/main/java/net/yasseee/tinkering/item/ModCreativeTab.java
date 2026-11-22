@@ -29,7 +29,11 @@ public class ModCreativeTab {
                         out.accept(SUSPICIOUS_SUBSTANCE);
                         out.accept(CHISEL);
                         out.accept(MIDAS_GLOVE);
+
                         out.accept(CONDENSED_DIRT.asItem());
+                        out.accept(BOMB_BLOCK.asItem());
+                        out.accept(HEALING_PAD.asItem());
+                        out.accept(MAGIC_BLOCK.asItem());
 
                     }).build()
             );
