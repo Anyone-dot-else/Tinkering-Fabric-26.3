@@ -10,6 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.yasseee.tinkering.TinkeringFabric;
 
 import static net.yasseee.tinkering.item.ModItems.*;
+import static net.yasseee.tinkering.block.ModBlockItems.*;
 
 public class ModCreativeTab {
 
@@ -28,6 +29,7 @@ public class ModCreativeTab {
                         out.accept(SUSPICIOUS_SUBSTANCE);
                         out.accept(CHISEL);
                         out.accept(MIDAS_GLOVE);
+                        out.accept(CONDENSED_DIRT.asItem());
 
                     }).build()
             );

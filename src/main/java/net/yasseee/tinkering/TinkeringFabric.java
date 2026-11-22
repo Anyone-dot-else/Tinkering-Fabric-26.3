@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
 
+import net.yasseee.tinkering.block.ModBlockItems;
 import net.yasseee.tinkering.item.ModCreativeTab;
 import net.yasseee.tinkering.item.ModItems;
 import org.slf4j.Logger;
@@ -25,6 +26,7 @@ public class TinkeringFabric implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		ModItems.onInitialize();
+		ModBlockItems.onInitialize();
 		ModCreativeTab.onInitialize();
 	}
 

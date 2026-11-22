@@ -5,8 +5,10 @@ import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.model.ModelTemplates;
+import org.jspecify.annotations.NonNull;
 
 import static net.yasseee.tinkering.item.ModItems.*;
+import static net.yasseee.tinkering.block.ModBlockItems.*;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricPackOutput output) {
@@ -15,12 +17,18 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
-
+        blockModelGenerators.createTrivialCube(CONDENSED_DIRT);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         itemModelGenerators.generateFlatItem(SUSPICIOUS_SUBSTANCE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(CHISEL, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(MIDAS_GLOVE, ModelTemplates.FLAT_ITEM);
+    }
+
+    @Override
+    public @NonNull String getName() {
+        return "TinkeringFabricModelProvider";
     }
 }

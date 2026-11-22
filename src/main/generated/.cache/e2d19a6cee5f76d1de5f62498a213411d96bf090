@@ -1,0 +1,10 @@
+// 26.3	-999999999-01-01T00:00:00	Tinkering Fabric/TinkeringFabricModelProvider
+d4d21c756435fcd5356854e47eeb91f0ec834f4b assets/tinkering-fabric/blockstates/condensed_dirt.json
+443981bf6ba0fa1e74ce6438f022ffed6502629d assets/tinkering-fabric/items/chisel.json
+c0750fe6bc619ae2183349b5da64aae09a806928 assets/tinkering-fabric/items/condensed_dirt.json
+b6771f2d3a155855cf34a5d9c8539cbf7ea3ebc0 assets/tinkering-fabric/items/midas_glove.json
+7c2d7ab0cac2e6fa5dc2af68303c97b45932bc3a assets/tinkering-fabric/items/suspicious_substance.json
+6d544cb15ba4b350be90ebcd16597354b15ecfbb assets/tinkering-fabric/models/block/condensed_dirt.json
+844b789d1e1da56dd34e1ed6b5fe70276e12a91d assets/tinkering-fabric/models/item/chisel.json
+c3d4ad6fd9daec182021c7e50a6abefc9d4f6e2a assets/tinkering-fabric/models/item/midas_glove.json
+47658d6a6e91360ef81ca9acb9333f2bf5dc4e88 assets/tinkering-fabric/models/item/suspicious_substance.json
